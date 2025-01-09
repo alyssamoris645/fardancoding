@@ -376,7 +376,6 @@ footer {
 .footer-bottom {
     text-align: center;
     padding: 10px 0;
-    background-color: white;
 }
 
 
@@ -478,13 +477,16 @@ footer {
     margin-top: 20px;
 }
 .stats {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     max-width: 40%;
     background: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
+}
+.aaa{
+    display: flex;
 }
 .stat {
     flex: 1;
@@ -680,4 +682,35 @@ footer {
     background: url('https://placehold.co/100x100/ffffff/ffffff.png?text=') no-repeat center center;
     background-size: contain;
     z-index: -1;
+}
+
+
+
+.item .fa-brands{
+    color: #1a1a1a;
+    font-size: 50px ;
+}
+
+
+
+.para{
+    width: 520px;
+    height:30px;
+    border-radius: 120px;
+    background-color: white;
+    margin-left: 400px;
+    padding-top: 10px;
+}
+
+.accept{
+    border-radius: 100px;
+    border: none;
+    padding-top: 2px;
+}
+.accept:hover{
+    background-color: #184341;
+}
+.footer-bottom{
+    bottom: 20px;
+    position: fixed;
 }
